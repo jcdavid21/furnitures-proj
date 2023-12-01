@@ -1,0 +1,160 @@
+.bg-head
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-height: 500px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.bg-head img
+{
+    filter:brightness(70%);
+}
+
+.bg-head .absolute
+{
+    position: absolute;
+    color: white;
+    left: 100px;
+}
+
+.bg-head .absolute .flex
+{
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgoldenrodyellow;
+}
+
+.bg-head .flex div
+{
+    width: 650px;
+}
+
+.bg-head .absolute h2
+{
+    font-size: 60px;
+    margin: 30px 0;
+}
+.center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center .map, .center .contact-div
+{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.center .map iframe
+{
+    height: 450px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.contact-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    gap: 100px;
+}
+
+.contact-div .left-col h1, .contact-div .left-col h2
+{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-div .left-col i{
+    font-size: 18px;
+    margin-right: 2px;
+}
+
+.contact-div .left-col .text
+{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 10px;
+    color: rgb(105, 105, 105);
+}
+
+.contact-div .left-col hr
+{
+    border: 1px solid #ecfb1f;
+    margin: 30px 0;
+}
+
+.left-col .contacts
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: rgb(105, 105, 105);
+    font-weight: 300;
+}
+
+.right-col hr
+{
+    border: 1px solid #ecfb1f;
+    width: 70px;
+    margin-bottom: 55px;
+}
+
+.right-col form label
+{
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: rgb(105, 105, 105);
+}
+
+.right-col form label span
+{
+    color: red;
+}
+
+.right-col form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-col form input
+{
+    margin-bottom: 25px;
+    border: 1px solid lightslategray;
+    border-radius: 4px;
+    padding: 12px 8px;
+}
+
+.right-col form button
+{
+    width: 150px;
+    margin-top: 20px;
+    background: rgb(239, 239, 37);
+    border: none;
+    color: rgb(55, 55, 55);
+    padding: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.right-col form button:hover
+{
+    background: rgb(229, 229, 14);
+}
